@@ -1,4 +1,4 @@
-const API_KEY = "74c606af1b6f26de866db286dabb1909";
+const API_KEY = "";
 const UNITS = "metric";
 
 const iconMap = new Map([
