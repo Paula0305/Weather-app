@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css"
+    />
+  </head>
+  <body>
+    <form action="#" id="weatherForm">
+      <input type="text" name="city" value="Kraków" />
+      <input type="hidden" name="country" value="pl" />
+      <button>OK</button>
+    </form>
+    <header>
+      <h1>Kraków<small>,PL</small></h1>
+      <h2>Jutro</h2>
+    </header>
+    <main>
+      <section class="weather">
+        <div class="weather-icon">
+          <i class="wi wi-day-haze"></i>
+        </div>
+        <div class="weather-temp">20&deg; C</div>
+      </section>
+      <div class="weather-details">
+        <section class="card air">
+          <div><i class="wi wi-humidity"></i>96%</div>
+          <div><i class="wi wi-barometer"></i>1016 hPa</div>
+        </section>
+        <section class="card wind">
+          <div><i class="wi wi-direction-down-right"></i>225&deg;</div>
+          <div><i class="wi wi-strong-wind"></i> 2.68 m/s</div>
+        </section>
+      </div>
+      <h3>Godziny</h3>
+      <div>
+        <ol class="forecast">
+          <li class="card card--centered">
+            <div>03:00</div>
+            <i class="wi wi-night-alt-partly-cloudy"></i>
+            <div>12&deg; C</div>
+          </li>
+          <li class="card card--centered">
+            <div>09:00</div>
+            <i class="wi wi-day-cloudy"></i>
+            <div>16&deg; C</div>
+          </li>
+          <li class="card card--centered">
+            <div>15:00</div>
+            <i class="wi wi-day-cloudy"></i>
+            <div>24&deg; C</div>
+          </li>
+          <li class="card card--centered">
+            <div>21:00</div>
+            <i class="wi wi-night-alt-partly-cloudy"></i>
+            <div>21&deg; C</div>
+          </li>
+        </ol>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
